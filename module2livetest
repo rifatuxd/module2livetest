@@ -1,0 +1,18 @@
+void main (){
+
+
+  double shop = 12.99;
+  double sugar = 8.75;
+  double poteto = 21.50;
+  double rice = 5.00;
+
+
+ var  total_item_price = shop + sugar + poteto + rice;
+
+   var vat = 8*total_item_price/100;
+
+   var totai_cost = vat + total_item_price;
+
+   print(totai_cost.toStringAsFixed(2));
+
+}
